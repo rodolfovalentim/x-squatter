@@ -183,9 +183,6 @@ if args.from_checkpoint is not None:
     trainer.fit(model, ckpt_path=args.from_checkpoint, datamodule=dm)
 else:
     trainer.fit(model=model, datamodule=dm) 
-    
-# trainer.validate(model=model, datamodule=dm)
-# trainer.test(model=model, datamodule=dm)
 
 terminal_logger.info(f'Saving file {version}.')
 trainer.save_checkpoint(output_path / 'last_model.ckpt')
