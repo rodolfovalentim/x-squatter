@@ -2,7 +2,6 @@
 
 ![License](https://img.shields.io/badge/license-[License]-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/[YourUsername]/[YourRepo])
-[Other badges or status indicators as needed]
 
 ## Table of Contents
 
