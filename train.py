@@ -86,8 +86,8 @@ output_path.mkdir(parents=True, exist_ok=True)
 
 # Configure CometML and checkpoint
 logger = CSVLogger(base_path, name=args.experiment_name, version=version, flush_logs_every_n_steps=100)
-comet_logger = CometLogger(api_key="2b7gh1THxQOb4YVZDHrEX9aYw", 
-                           workspace="rodolfovalentim", 
+comet_logger = CometLogger(api_key="", 
+                           workspace="", 
                            project_name=args.experiment_name,
                            experiment_name='version_' + str(version))
 
