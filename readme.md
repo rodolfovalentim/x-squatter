@@ -1,12 +1,15 @@
-This repository is an attempt to make the panphon version (current best model for multilanguage) to reach 100% in homophone generation.
+# X-Squatter:  AI’s Multilingual Journey in Search and Generation of Cross-Language Sound-squatting
 
-My initial guess was that the panphon representation contained a lot of repetitions. This guess proved false.
+![License](https://img.shields.io/badge/license-[License]-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/[YourUsername]/[YourRepo])
+[Other badges or status indicators as needed]
 
-I tried to add token digits in the input together with vector representation, but the actual behavior diveged from the desired in the sense that the output was biased towards the digits not considering sound.
+## Table of Contents
 
-To make thhe model faster I also reduced the number of allowed IPA tokens, which considerably degraded the multilanguage performance.
+- [About](#about)
 
-Batch reduction proved effective for the models without panphon representation, but not for this model.
+## About
 
-https://gist.githubusercontent.com/tomByrer/cb5c9fae362c896ecd02/raw/f2fd9eae8b65c8a68bd3b80f3c4bd3115497da90/english-homophones.txt
-http://www.singularis.ltd.uk/bifroest/misc/homophones-list.html
+X-Squatter is a Python tool designed to detect and prevent Sound-Squatting attacks, a phishing technique that exploits similarities in word pronunciation to trick users into accessing malicious resources. Sound-Squatting has gained traction with the rise of smart speakers and audio-only content, making it an understudied but emerging threat, especially in multilingual contexts.
+
+The tool utilizes state-of-the-art AI technology, including a Transformer Neural Network, to automatically generate high-quality sound-squatting candidates. This aids in the detection of domain name squatting abuse in TLS certificates and other types of squatting. Key findings show that a significant number of generated sound-squatting candidates are associated with TLS certificates, emphasizing the importance of countermeasures.
